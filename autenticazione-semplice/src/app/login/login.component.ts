@@ -5,9 +5,10 @@ import { AuthConfig } from "../shared/spotify-auth-config.i";
 
 @Component({
   selector: 'app-login',
-  templateUrl: './app.login.component.html',
-  styleUrls: ['./app.login.component.css']
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit {
   private requestAuthUrl = 'https://accounts.spotify.com/authorize';
 
