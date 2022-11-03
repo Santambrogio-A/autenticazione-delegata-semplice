@@ -3,7 +3,11 @@ import { Router } from "@angular/router";
 import { ScopesBuilder } from "../shared/scopes-builder";
 import { AuthConfig } from "../shared/spotify-auth-config.i";
 
-@Component({})
+@Component({
+  selector: 'app-login',
+  templateUrl: './app.login.component.html',
+  styleUrls: ['./app.login.component.css']
+})
 export class LoginComponent implements OnInit {
   private requestAuthUrl = 'https://accounts.spotify.com/authorize';
 
