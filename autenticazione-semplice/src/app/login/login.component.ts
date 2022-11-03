@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
   }
 
   private authConfig: AuthConfig = { 
-    client_id: "3af5f43840144db2a5ef883b56c5fb7e",  // WebPortal App Id. Shoud be config
+    client_id: "665f9a1fab5a40268546431b12d337cb",  // WebPortal App Id. Shoud be config
     response_type: "token",
     redirect_uri: "http://localhost:3000/authorized",  // My URL
     state: "",
