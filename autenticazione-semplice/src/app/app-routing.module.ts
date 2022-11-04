@@ -6,7 +6,7 @@ import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'authorized', component: AuthorizedComponent },
-  { path: '',   redirectTo: '/login', pathMatch: 'full' }
+  { path: '',   redirectTo: '/authorized', pathMatch: 'full' }
 ];
 
 @NgModule({
