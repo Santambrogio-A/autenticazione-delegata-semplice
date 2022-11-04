@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { ProvaComponent } from './prova/prova.component';
+import { AuthorizedComponent } from './authorized/authorized.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ProvaComponent
+    AuthorizedComponent
   ],
   imports: [
     BrowserModule,
